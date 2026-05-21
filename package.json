@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "@swc/cli": "^0.8.1",
+    "@swc/core": "^1.15.33",
+    "@swc/jest": "^0.2.39",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.4.2",
+    "ts-node": "^10.9.2",
+    "tslint": "^5.20.1",
+    "typescript": "^6.0.3"
+  },
+  "scripts": {
+    "test": "npm run tsc -- --noEmit && jest",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "@types/uuid": "^10.0.0",
+    "reflect-metadata": "^0.2.2",
+    "sequelize": "^6.37.8",
+    "sequelize-typescript": "^2.1.6",
+    "sqlite3": "^6.0.1",
+    "uuid": "^14.0.0"
+  }
+}
