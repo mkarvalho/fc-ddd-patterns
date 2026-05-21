@@ -4,7 +4,7 @@ Projeto do curso DDD: Modelagem Tatica e Patterns.
 
 ## Stack
 
-- Node.js
+- Node.js (24.15.0)
 - TypeScript
 - Jest
 - Sequelize
